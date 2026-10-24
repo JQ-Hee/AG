@@ -10,6 +10,14 @@ Use Python 3.10, then install the dependencies:
 python -m pip install -r requirements.txt
 ```
 
+## Downloads
+
+Download the weights and prepared dataset from [Baidu Netdisk](https://pan.baidu.com/s/1EIzLG-AQYvKCt9A0lmvVlA?pwd=nprp).
+
+Extraction code: `nprp`.
+
+Extract both archives before running inference.
+
 ## Inputs
 
 `--data-dir` contains the existing `manifest.json`, `splits/fold0.json` through
@@ -41,4 +49,3 @@ Each `fold0/` through `fold4/` contains `per_pair.csv` and `metrics.json`.
 across the five fold means. Within each fold, every adjacent pair has equal weight.
 
 Metrics are DSC, TPR, PPV, PSNR, SSIM, MSE-ROI, and MSE-PN.
-
